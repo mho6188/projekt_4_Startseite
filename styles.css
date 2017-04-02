@@ -1,0 +1,218 @@
+@charset "utf-8";
+ 
+/*
+* CSS-Design
+* webdesign/by/me
+* Online-Schule fuer Gestaltung: Webdesign-Kurs
+*/
+ 
+ 
+ 
+/* Reset * * * * * * * * */
+*{
+        margin: 0;
+        padding: 0;
+}
+
+ 
+/* Layout * * * * * * * * */
+ 
+.wrapper{
+	width:960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#header{
+	background: #282828;
+}
+
+#teaser{
+	background: #3d4346;
+	padding: 0px 0px 20px 0px;
+}
+
+.text{
+	color: #861286;
+	font-family: 900 'Source Sans Pro';
+	font-size: 45px;
+	font-weight: 700; 
+	text-align: center;
+}
+
+#footer{
+	background: #282828;
+	padding: 20px 0 50px;
+}
+
+	
+
+
+/* Spalten * * * * * * * * */
+
+.col_1, .col_1_2, .col_1_3{
+	float: left;
+	margin: 20px 10px 0px 10px;
+	
+	}
+
+
+.col_1{ 
+	width:940px;
+}
+
+.col_1_2{
+	width:460px;
+}
+
+.col_1_3{
+	width:300px;
+	position:relative;
+}
+
+
+/* Navigation */ 
+ul#navigation{ 
+float: right; 
+margin: 20px 20px 0px 0px; 
+}
+
+ul#navigation li{ 
+display: inline; 
+margin: 0 0 0 40px; 
+list-style: none; 
+}
+
+ul#navigation li a{
+color: #eee; 
+text-decoration: none; 
+text-transform: uppercase;
+font-size: 20px; 
+font-weight: 700; 
+font-family: 900 'Source Sans Pro', Helvetica, Arial, sans-serif; 
+}
+
+ul#navigation li a:hover{     
+color: #000000;
+text-decoration: underline; 
+}
+
+#header img{
+	padding-top: 5px;
+}
+
+	/* Typografie */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 900 'Source Sans Pro', Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	margin: 0 0 15px 0;
+	color: #fffafa;
+}
+
+h2{
+	font-size: 27px;
+	line-height: 30px;
+	text-align: center;
+	text-decoration: underline;
+	margin-bottom: 10px;
+	letter-spacing: 0,5px;
+}
+
+
+	/* Styling */
+a{
+	color: #ffff62;
+	text-decoration: none;
+	font-size: 18px;
+	letter-spacing: 0,5px;
+}
+
+a:hover{
+	color: #000000;
+}
+
+#footer a:hover{
+	color: #000000;
+}
+
+#footer h1{
+	text-align: center; 
+	border-bottom: 2px solid #fffafa;
+}
+	
+
+p{
+	font-size: 19px;
+	letter-spacing: 0,5px;
+	margin-bottom: 15px;
+	color: #fffafa;
+	font-family: 700 'Droid Serif', Georgia, serif;
+}
+
+#uebermich{
+	background-image: url("images/hintergrund-2.jpg");
+	padding: 10px 0px;
+}
+
+#uebermich img{
+	float: right;
+	margin-right: 15px;
+	padding-bottom: 10px;
+}
+
+#uebermich h1{
+	border-bottom: 2px solid #fffafa;
+}
+
+#leistungen{
+	background: #3d4346;
+	padding-bottom: 10px;
+}
+
+#portfolio{
+	background-image: url("images/hintergrund-2.jpg");
+}
+
+#portfolio img{
+	position: center;
+	margin-bottom: 15px;
+} 
+	
+
+#block{
+	margin:20px;
+}
+
+#social img{
+	float: right;
+	margin-right: 20px;
+	width: 70px;
+	height: 70px; 
+	border: 3px solid #000;
+	border-radius: 35px;
+}
+
+#social img:hover{
+	border-color: #ffff62;
+}
+
+.button{
+	background: #3d4346;
+	padding: 4px 10px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+	float: right;
+	color: #ffff62;
+	text-decoration: none;
+	border-radius: 7px;
+}
+
+.button:hover{
+	background: #ffff62;
+	color: #3d4346;
+}
+
+.big{
+	font-size: 20px;
+}
